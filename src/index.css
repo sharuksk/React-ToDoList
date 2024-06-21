@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI',sans-serif;
 }
 
 html {
@@ -10,9 +11,6 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32,11 +30,12 @@ body {
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
+  background-image: linear-gradient(to right, #3a18fc90 , #4aee968e);
   color: aliceblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: default;
 }
 
 main {
@@ -52,10 +51,20 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
+  background-image: linear-gradient(to right, #3a18fc90 , #4aee968e);
   color: aliceblue;
   display: grid;
   place-content: center;
+  cursor: default;
+}
+
+header:hover{
+  color: rgba(255, 255, 255, 0.323);
+  background-image: linear-gradient(to right, #4aee968e, #3a18fc90);
+}
+footer:hover{
+  color: rgba(255, 255, 255, 0.503);;
+  background-image: linear-gradient(to right, #4aee968e, #3a18fc90);
 }
 
 ul {

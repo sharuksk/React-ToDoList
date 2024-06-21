@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "text": "Adangommala"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "text": "Waatha'"
+    }
+  ]
+}
